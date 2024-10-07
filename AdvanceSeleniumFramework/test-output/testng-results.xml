@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="1" failed="1" skipped="1">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-10-05T15:36:06 IST" name="Suite" finished-at="2024-10-05T15:38:49 IST" duration-ms="162814">
+    <groups>
+    </groups>
+    <test started-at="2024-10-05T15:36:06 IST" name="Test1" finished-at="2024-10-05T15:36:06 IST" duration-ms="246">
+      <class name="campaign.Create_Campaign_Baseclass_Test">
+        <test-method is-config="true" signature="bT()[pri:0, instance:campaign.Create_Campaign_Baseclass_Test@3f191845]" started-at="2024-10-05T15:36:06 IST" name="bT" finished-at="2024-10-05T15:36:06 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bT -->
+        <test-method is-config="true" signature="bC(java.lang.String)[pri:0, instance:campaign.Create_Campaign_Baseclass_Test@3f191845]" started-at="2024-10-05T15:36:06 IST" name="bC" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1728122766344" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'BROWSER' is required by BeforeClass on method bC but has not been marked @Optional or defined
+in C:\Users\Guest2\eclipse-workspace\AdvanceSeleniumFramework\ParallelExetestng.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'BROWSER' is required by BeforeClass on method bC but has not been marked @Optional or defined
+in C:\Users\Guest2\eclipse-workspace\AdvanceSeleniumFramework\ParallelExetestng.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:264)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:352)
+at org.testng.internal.Parameters.createParameters(Parameters.java:690)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:163)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:313)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bC -->
+        <test-method is-config="true" signature="bM()[pri:0, instance:campaign.Create_Campaign_Baseclass_Test@3f191845]" started-at="2024-10-05T15:36:06 IST" name="bM" finished-at="2024-10-05T15:36:06 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bM -->
+        <test-method signature="Create_Campaign_Baseclass_Test()[pri:0, instance:campaign.Create_Campaign_Baseclass_Test@3f191845]" started-at="2024-10-05T15:36:06 IST" name="Create_Campaign_Baseclass_Test" finished-at="2024-10-05T15:36:06 IST" duration-ms="1" status="SKIP">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'BROWSER' is required by BeforeClass on method bC but has not been marked @Optional or defined
+in C:\Users\Guest2\eclipse-workspace\AdvanceSeleniumFramework\ParallelExetestng.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'BROWSER' is required by BeforeClass on method bC but has not been marked @Optional or defined
+in C:\Users\Guest2\eclipse-workspace\AdvanceSeleniumFramework\ParallelExetestng.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:264)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:352)
+at org.testng.internal.Parameters.createParameters(Parameters.java:690)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:163)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:313)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Create_Campaign_Baseclass_Test -->
+        <test-method is-config="true" signature="aM()[pri:0, instance:campaign.Create_Campaign_Baseclass_Test@3f191845]" started-at="2024-10-05T15:36:06 IST" name="aM" finished-at="2024-10-05T15:36:06 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aM -->
+        <test-method is-config="true" signature="aC()[pri:0, instance:campaign.Create_Campaign_Baseclass_Test@3f191845]" started-at="2024-10-05T15:36:06 IST" name="aC" finished-at="2024-10-05T15:36:06 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aC -->
+        <test-method is-config="true" signature="aT()[pri:0, instance:campaign.Create_Campaign_Baseclass_Test@3f191845]" started-at="2024-10-05T15:36:06 IST" name="aT" finished-at="2024-10-05T15:36:06 IST" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aT -->
+      </class> <!-- campaign.Create_Campaign_Baseclass_Test -->
+    </test> <!-- Test1 -->
+    <test started-at="2024-10-05T15:36:06 IST" name="Test3" finished-at="2024-10-05T15:38:33 IST" duration-ms="147012">
+      <class name="product.Create_Delete_product_Test">
+        <test-method signature="Create_Product_Optimization_using_utility()[pri:0, instance:product.Create_Delete_product_Test@305ffe9e]" started-at="2024-10-05T15:36:06 IST" name="Create_Product_Optimization_using_utility" finished-at="2024-10-05T15:38:33 IST" duration-ms="146768" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Create_Product_Optimization_using_utility -->
+      </class> <!-- product.Create_Delete_product_Test -->
+      <class name="campaign.Create_Campaign_Baseclass_Test">
+        <test-method is-config="true" signature="bS()[pri:0, instance:campaign.Create_Campaign_Baseclass_Test@3f191845]" started-at="2024-10-05T15:36:06 IST" name="bS" finished-at="2024-10-05T15:36:06 IST" duration-ms="58" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bS -->
+        <test-method is-config="true" signature="aS()[pri:0, instance:campaign.Create_Campaign_Baseclass_Test@3f191845]" started-at="2024-10-05T15:38:49 IST" name="aS" finished-at="2024-10-05T15:38:49 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aS -->
+      </class> <!-- campaign.Create_Campaign_Baseclass_Test -->
+    </test> <!-- Test3 -->
+    <test started-at="2024-10-05T15:36:06 IST" name="Test2" finished-at="2024-10-05T15:38:49 IST" duration-ms="162810">
+      <class name="campaign.Create_Camp_Product_Test">
+        <test-method signature="Create_camp_product_codeopti()[pri:0, instance:campaign.Create_Camp_Product_Test@23e84203]" started-at="2024-10-05T15:36:06 IST" name="Create_camp_product_codeopti" finished-at="2024-10-05T15:38:49 IST" duration-ms="162605" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()='iphone308']"}
+  (Session info: chrome=129.0.6668.90)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.23.1', revision: '656257d8e9'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6f91072c0596e796e199a4e914076534, findElement {value=//a[text()='iphone308'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.90, chrome: {chromedriverVersion: 129.0.6668.89 (951c0b97221f..., userDataDir: C:\Users\Guest2\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62124}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62124/devtoo..., se:cdpVersion: 129.0.6668.90, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6f91072c0596e796e199a4e914076534]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()='iphone308']"}
+  (Session info: chrome=129.0.6668.90)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.23.1', revision: '656257d8e9'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6f91072c0596e796e199a4e914076534, findElement {value=//a[text()='iphone308'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.90, chrome: {chromedriverVersion: 129.0.6668.89 (951c0b97221f..., userDataDir: C:\Users\Guest2\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62124}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62124/devtoo..., se:cdpVersion: 129.0.6668.90, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6f91072c0596e796e199a4e914076534
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+at object_repository.Product_Create_Page.ClickaddProuct(Product_Create_Page.java:53)
+at campaign.Create_Camp_Product_Test.Create_camp_product_codeopti(Create_Camp_Product_Test.java:90)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Create_camp_product_codeopti -->
+      </class> <!-- campaign.Create_Camp_Product_Test -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Suite -->
+</testng-results>

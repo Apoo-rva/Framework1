@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="Test1(failed)">
+    <classes>
+      <class name="campaign.Create_Campaign_Baseclass_Test">
+        <methods>
+          <include name="Create_Campaign_Baseclass_Test"/>
+          <include name="bM"/>
+          <include name="aT"/>
+          <include name="aM"/>
+          <include name="bC"/>
+          <include name="bS"/>
+          <include name="aC"/>
+          <include name="bT"/>
+          <include name="aS"/>
+        </methods>
+      </class> <!-- campaign.Create_Campaign_Baseclass_Test -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+  <test thread-count="5" parallel="tests" name="Test2(failed)">
+    <classes>
+      <class name="campaign.Create_Camp_Product_Test">
+        <methods>
+          <include name="Create_camp_product_codeopti"/>
+        </methods>
+      </class> <!-- campaign.Create_Camp_Product_Test -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+</suite> <!-- Failed suite [Suite] -->
